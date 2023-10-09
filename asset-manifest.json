@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/razvan.github.io/static/css/main.ab849221.css",
+    "main.js": "/razvan.github.io/static/js/main.cc969be5.js",
+    "index.html": "/razvan.github.io/index.html",
+    "main.ab849221.css.map": "/razvan.github.io/static/css/main.ab849221.css.map",
+    "main.cc969be5.js.map": "/razvan.github.io/static/js/main.cc969be5.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.ab849221.css",
+    "static/js/main.cc969be5.js"
+  ]
+}
