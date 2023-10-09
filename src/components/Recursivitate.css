@@ -1,0 +1,168 @@
+.rec {
+    height: 260vh;
+    margin-top: 100px;
+    display: flex;
+    flex-direction: column;
+    margin-left: 10rem;
+}
+
+.rec-title {
+    font-family: 'Poppins';
+    font-size: 50px;
+    font-weight: 500;
+}
+
+.rec-title > span > img {
+    width: 80px;
+    height: 80px;
+    position: relative;
+    top: 14px;
+}
+
+.subtitle {
+    display: flex;
+    flex-direction: column;
+}
+
+.subtitle > p {
+    font-family: 'Poppins';
+    font-size: 30px;
+    font-weight: 300;
+}
+
+.subtitle > p > span {
+    padding: 10px;
+    position: relative;
+    bottom: .5rem;
+}
+
+.subtitle > p > span > ul {
+    position: relative;
+    left: 3rem;
+}
+
+.subtitle > p > img {
+    width: 40px;
+    height: 40px;
+}
+
+.subtitle > .rec--code-sample {
+    background-color: white;
+    height: 540px;
+    width: 60vw;
+    border-radius: 15px;
+    margin-left: 50px;
+}
+
+.subtitle > .rec--code-sample > .rec--code-text {
+    color: black;
+    font-family: 'Consolas';
+    margin-left: 30px;
+}
+
+.subtitle > .fract {
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    justify-content: center;
+}
+
+.subtitle > .fract > img {
+    width: 500px;
+    height: 500px; 
+    margin-left: 40px;
+    margin-right: 100px;
+    --s: 500px;   /* the size of the image */
+    --b: 8px;     /* the border thickness*/
+    --g: 14px;    /* the gap */
+    --c: #4ECDC4; /* the color */
+    
+    width: var(--s);
+    outline: calc(var(--s)/2) solid #0009;
+    outline-offset: calc(var(--s)/-2);
+    cursor: pointer;
+    transition: .3s;
+}
+
+.subtitle > .fract > img:hover {
+    outline: var(--b) solid var(--c);
+    outline-offset: var(--g);
+}
+
+.rec-test {
+    height: 130vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.test-title {
+    align-self: center;
+    font-weight: 700;
+    font-size: 60px;
+    font-family: 'Poppins';
+}
+
+.rec-test > .enunt-container {
+    display: flex;
+    flex-direction: row;
+}
+
+.rec-test > .enunt-container > img {
+    width: 1000px;
+    height: 800px;
+    margin-left: 40px;
+    margin-top: 70px;
+    position: relative;
+    bottom: 120px;
+}
+
+.rec-test > .enunt-container > .enunt {
+    margin-top: 10px;
+    font-family: 'Poppins';
+    font-size: 25px;
+    position: relative;
+    right: 2rem;
+    margin-left: 50px;
+}
+
+.rec-test > .enunt-container > .enunt > ul > li > img {
+    width: 36px;
+    height: 36px;
+    position: relative;
+    top: 10px;
+}
+
+.rec-test > .enunt-container > .enunt > ul {
+    font-size: 25px;
+}
+
+.spec-title {
+    line-height: 0;
+    font-size: 20px;
+    font-style: italic;
+    font-weight: 500;
+    position: relative;
+    left: 0;
+}
+
+.rec-test > .enunt-container > .enunt > .btn2 > .rec--code-sample > .rec--code-text {
+    color: black;
+    font-family: 'Consolas';
+    margin-left: 30px;
+    font-size: 15px;
+    position: relative;
+    top: 12px;
+}
+
+.rec-test > .enunt-container > .enunt > .btn2 > .rec--code-sample {
+    background-color: white;
+    height: 540px; 
+    width: 40vw;
+    border-radius: 15px;
+    margin-left: 1px;
+}
+
+
+
+
+

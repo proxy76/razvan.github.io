@@ -1,0 +1,169 @@
+.subprograme {
+    height: 280vh;
+    margin-top: 100px;
+    display: flex;
+    flex-direction: column;
+    margin-left: 10rem;
+}
+
+.sp-title {
+    font-family: 'Poppins';
+    font-size: 50px;
+    font-weight: 500;
+}
+
+.subtitle {
+    display: flex;
+    flex-direction: column;
+}
+
+.subtitle > p {
+    font-family: 'Poppins';
+    font-size: 30px;
+    font-weight: 300;
+}
+
+.subtitle > p > span {
+    padding: 10px;
+    position: relative;
+    bottom: .5rem;
+}
+
+.subtitle > p > span > ul {
+    position: relative;
+    left: 3rem;
+}
+
+.subtitle > p > img {
+    width: 40px;
+    height: 40px;
+}
+
+.subtitle > .sp--code-sample {
+    background-color: white;
+    height: 500px;
+    width: 60vw;
+    border-radius: 15px;
+    margin-left: 50px;
+}
+
+.subtitle > .sp--code-sample > .sp--code-text {
+    color: black;
+    font-family: 'Consolas';
+    margin-left: 30px;
+}
+
+.param-title {
+    position: relative;
+    top: 6rem;
+}
+
+.subtitle2 {
+    display: flex;
+    flex-direction: column;
+}
+
+.subtitle2 > p {
+    font-family: 'Poppins';
+    font-size: 30px;
+    font-weight: 300;
+    position: relative;
+    top: 6rem;
+}
+
+.subtitle2 > p > span {
+    padding: 10px;
+    position: relative;
+    bottom: .5rem;
+}
+
+.subtitle2 > p > span > ul {
+    position: relative;
+    left: 3rem;
+}
+
+.subtitle2 > p > img {
+    width: 40px;
+    height: 40px;
+}
+
+.subtitle2 > .ex2 > .sp--code-sample {
+    background-color: white;
+    height: 520px;
+    width: 40vw;
+    border-radius: 15px;
+    margin-left: 50px;
+    position: relative;
+    top: 6rem;
+}
+
+.subtitle2 > .ex2 >.sp--code-sample > .sp--code-text {
+    color: black;
+    font-family: 'Consolas';
+    margin-left: 30px;
+}
+
+.subtitle2 > .ex2 > .sp--code-solver {
+    background-color: black;
+    height: 520px;
+    width: 40vw;
+    border-radius: 15px;
+    margin-left: 50px;
+    position: relative;
+    top: 6rem;
+}
+
+.subtitle2 > .ex2 > .sp--code-solver > .sp--terminal-text {
+    color: white;
+    font-family: 'Consolas';
+    margin-left: 30px;
+}
+
+.subtitle2 > .ex2 {
+    display: flex;
+    flex-direction: row;
+}
+
+.sp-test {
+    height: 130vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.test-title {
+    align-self: center;
+    font-weight: 700;
+    font-size: 60px;
+    font-family: 'Poppins';
+}
+
+.sp-test > .enunt-container {
+    display: flex;
+    flex-direction: row;
+}
+
+.sp-test > .enunt-container > img {
+    width: 800px;
+    height: 800px;
+    margin-left: 80px;
+    margin-top: 30px;
+}
+
+.sp-test > .enunt-container > .enunt {
+    margin-top: 90px;
+    font-family: 'Poppins';
+    font-size: 30px;
+    position: relative;
+    right: 2rem;
+}
+
+.sp-test > .enunt-container > .enunt > ul > li > img {
+    width: 36px;
+    height: 36px;
+    position: relative;
+    top: 10px;
+}
+
+.sp-test > .enunt-container > .enunt > ul {
+    font-size: 25px;
+}
