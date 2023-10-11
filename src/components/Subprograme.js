@@ -89,7 +89,7 @@ export default function Subprograme(){
                     <span>void Parametrii</span>(char <span style={{fontWeight: 300}}>const</span>, float <span style={{fontWeight: 300}}>&ref</span>)
                 </section>
                 <motion.p className="subtitle2">
-                    <p><img src='./question-mark.png' /><span>Care era diferența între parametru actual și cu referință? </span></p>
+                    <p><img src='./question-mark.png' /><span>Care era diferența între parametru constant și cu referință? </span></p>
                     <p><img src='./hashtag.png' /><span>Una dintre diferențe este că paramentru cu referință reprezintă adresa din memoria RAM specifică unei variabile, iar atunci când se impune o modificare, aceasta va avea loc in memorie direct. </span></p>
                     <p><img src='./hashtag.png' /><span>De asemenea, este important să știm că în timp ce parametrii constanți pot primi o valoare de orice tip (deoarece se realizează conversie implicită), cei cu referință nu pot, deoarece aceia primesc <i>o adresă de memorie</i>. </span></p>
                     <p><img src='terminal.png' /><span>Exemplu</span></p>
