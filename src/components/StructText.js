@@ -38,7 +38,7 @@ export default function StructText() {
             <div className="enunt-container">
                 <div className="enunt">
                     În fișierul autor.in se află n linii, fiecare conținând în această ordine următoarele date: numele și prenumele unui autor, anul nașterii, cartea de debut, anul debutului și numărul de critici literare pe care le are cartea până în prezent. Fiecare cuvânt sau cifră sunt separate prin caracterul '#'. Să se afișeze în fișierul autor.out ordonați alfabetic după titlul cărții de debut, în această ordine: inițiala prenumelui autorului, numele autorului scris cu majuscule, secolul și deceniul în care s-a născut separate prin caracterul '@', oglinditul anului de debut, titlul cărții de debut în codul ASCII și cel mai apropiat număr prim de numărul de critici literare.
-                    <p>Este sugerată aplicarea tuturor noțiunilor recapitulate precedent și folosirea librăriei <b>cstdlib</b>.</p>
+                    <p>Este sugerată aplicarea tuturor noțiunilor recapitulate precedent și folosirea librăriei <b>cstdlib</b>. -&gt; funcția <b>atoi(char*)</b> convertește un text în valoarea sa întreagă corespunzătoare.</p>
                     <motion.p 
                             className="btn1" 
                             onClick={() => newTab("https://cplusplus.com/reference/cstdlib/")}
