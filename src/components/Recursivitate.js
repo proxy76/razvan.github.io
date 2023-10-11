@@ -67,11 +67,11 @@ export default function Recursivitate() {
                             <p><span style={{fontStyle: 'italic', color: 'gray'}}> // termenul n din șirul lui Fibonacci</span></p>
                             <p>#include &lt;iostream&gt;</p>
                             <p>using namespace std;</p>
-                            <p>int fib(int n)｛</p>
+                            <p><span style={{color: "blue"}}>int</span> fib(<span style={{color: "blue"}}>int</span> n)｛</p>
                             <p style={{marginLeft: 30}}>if (n == 1 || n == 2)｛</p>
-                            <p style={{marginLeft: 60}}>return 1;</p>
+                            <p style={{marginLeft: 60}}><span style={{color: "red"}}>return</span> 1;</p>
                             <p style={{marginLeft: 30}}>｝</p>
-                            <p style={{marginLeft: 30}}>return fib(n - 1) + fib(n - 2);</p>
+                            <p style={{marginLeft: 30}}><span style={{color: "red"}}>return</span> fib(n - 1) + fib(n - 2);</p>
                             <p>｝</p>
                             <p><span style={{color: "blue"}}>int</span> main()｛</p>
                             <p style={{marginLeft: 30}}><span style={{color: "blue"}}>int</span> n;</p>

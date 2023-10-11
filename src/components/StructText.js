@@ -32,8 +32,8 @@ export default function StructText() {
             whileInView="animate1"
             viewport={{once: true}}
             >
-                <span>Adaptarea de problemă!</span>
-                <p className="spec-title">// și mai grea</p>
+                <span>Adaptare de problemă!</span>
+                <p className="spec-title">// grea</p>
             </motion.section>
             <div className="enunt-container">
                 <div className="enunt">

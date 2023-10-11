@@ -116,7 +116,7 @@ export default function SirCaract(){
                         <li>strchr(char*, char) - return: *char, caută într-un șir, un caracter</li>
                         <li>strstr(char*, char*) - return: *char, caută într-un șir, alt șir</li>
                         <li>strspn(char*, char*) - return: int, caută într-un șir, alt șir și afișează pe câte poziții se întinde</li>
-                        <li><b>strtok(char*, const char*) / strtok(NULL, const char*)</b> - este folosit pentru împărțirea unui string mai mare, în string-uri mai mici</li>
+                        <li><b>strtok(char*, const char*) / strtok(NULL, const char*)</b> - este folosit pentru împărțirea unui string mai mare în string-uri mai mici</li>
                     </ul>
                     <p><img src='terminal.png' /><span>Exemplu</span></p>
                     <section className="sc--code-sample2">
@@ -147,7 +147,7 @@ export default function SirCaract(){
                             <p><span style={{color: "blue"}}>int</span> main()｛</p>
                             <p style={{marginLeft: 30}}><span style={{color: "blue"}}>char</span> s[101];</p>
                             <p style={{marginLeft: 30}}>cin.getline(s, 101);</p>
-                            <p style={{marginLeft: 30}}>char *p = strtok(s, " ");</p>
+                            <p style={{marginLeft: 30}}><span style={{color: "blue"}}>char</span> *p = strtok(s, " ");</p>
                             <p style={{marginLeft: 30}}>for(; p; p=strtok(NULL, " ")) cout&lt;&lt;strrev(p);<span style={{fontStyle: 'italic', color: 'gray'}}> // afișează șirul fără spații și fiecare cuvânt inversat</span></p>
                             <p>｝</p>
                             <p></p>

@@ -62,11 +62,11 @@ export default function RecursivitateText() {
                                         <p><span style={{fontStyle: 'italic', color: 'gray'}}> // răspuns:</span></p>
                                         <p>#include &lt;iostream&gt;</p>
                                         <p>using namespace std;</p>
-                                        <p>int factorial(int n)｛</p>
+                                        <p><span style={{color: "blue"}}>int</span> factorial(<span style={{color: "blue"}}>int</span> n)｛</p>
                                         <p style={{marginLeft: 30}}>if (n &lt;= 0)｛</p>
-                                        <p style={{marginLeft: 60}}>return 1;</p>
+                                        <p style={{marginLeft: 60}}><span style={{color: "red"}}>return</span> 1;</p>
                                         <p style={{marginLeft: 30}}>｝else｛</p>
-                                        <p style={{marginLeft: 60}}>return n * factorial(n - 1);</p>
+                                        <p style={{marginLeft: 60}}><span style={{color: "red"}}>return</span> n * factorial(n - 1);</p>
                                         <p style={{marginLeft: 30}}>｝</p>
                                         <p>｝</p>
                                         <p><span style={{color: "blue"}}>int</span> main()｛</p>

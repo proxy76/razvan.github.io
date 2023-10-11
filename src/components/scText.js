@@ -31,8 +31,8 @@ export default function SirCaractText() {
             </motion.section>
             <div className="enunt-container">
                 <div className="enunt">
-                    În fișierul autor.in se află în această ordine următoarele date: numele și prenumele unui autor, anul nașterii, cartea de debut, anul debutului și numărul de critici literare pe care le are cartea până în prezent. Fiecare cuvânt sau cifră sunt separate prin caracterul #. Să se afișeze în fișierul autor.out șirul scris astfel, cuvintele fiind separate prin spațiu: numele autorului, inițiala prenumelui autorului, anul debutului, carte de debut și anul nașterii.
-                    <p>Exemplu: în fișierul <i>autor.in</i> se află Creangă#Ion#1837#Soacra cu trei nurori#1875#80 și se va afișa în fișierul <i>autor.out</i> Creangă I 1875 Soacra cu trei nurori 1835.</p>
+                    În fișierul <b>autor.in</b> se află în această ordine următoarele date: <b>numele</b> și <b>prenumele</b> unui autor, <b>anul nașterii</b>, <b>cartea de debut</b>, <b>anul debutului</b> și <b>numărul de critici literare</b> pe care le are cartea până în prezent. Fiecare cuvânt sau cifră sunt separate prin caracterul #. Să se afișeze în fișierul <b>autor.out</b> șirul scris astfel, cuvintele fiind separate prin spațiu: numele autorului, inițiala prenumelui autorului, anul debutului, carte de debut și anul nașterii.
+                    <p>Exemplu: în fișierul <i>autor.in</i> se află <b>Creangă#Ion#1837#Soacra cu trei nurori#1875#80</b> și se va afișa în fișierul <i>autor.out</i> <b>Creangă I 1875 Soacra cu trei nurori 1835</b>.</p>
                 </div>
                 <img src="./red-img.png" />
                 
