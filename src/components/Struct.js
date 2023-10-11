@@ -101,7 +101,7 @@ export default function Struct(){
                             <p>#include &lt;iostream&gt;</p>
                             <p></p>
                             <p>using namespace std;</p>
-                            <p>struct｛ char prenume[51]; double medie; struct｛ int ex1, ex2 ｝ex; ｝ e[3];</p>
+                            <p>struct｛ char prenume[51]; double medie; struct｛ int ex1, ex2; ｝ex; ｝ e[3];</p>
                             <p></p>
                             <p><span style={{color: "blue"}}>int</span> main()｛</p>
                             <p>for (int i = 0; i &lt; 3; i++)</p>
