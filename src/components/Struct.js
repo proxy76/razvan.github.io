@@ -101,7 +101,7 @@ export default function Struct(){
                             <p>#include &lt;iostream&gt;</p>
                             <p></p>
                             <p>using namespace std;</p>
-                            <p>struct｛ char prenume[51]; double medie; ｝ e[3];</p>
+                            <p>struct｛ char prenume[51]; double medie; struct｛ int ex1, ex2 ｝ex; ｝ e[3];</p>
                             <p></p>
                             <p><span style={{color: "blue"}}>int</span> main()｛</p>
                             <p>for (int i = 0; i &lt; 3; i++)</p>
@@ -127,6 +127,8 @@ export default function Struct(){
                             </div>
                     </section> 
                     </div>
+
+                    <p className="met"><img src='./lightning.png' /><span>Amintiți-vă că o structură poate fi declarată și în interiorul alteia, ca în exemplu! Aceastea pot fi accesate prin expresiile <i>e[0].ex.ex1</i> și <i>e[0].ex.ex2</i>.</span></p>
 
                 </motion.p>
         </motion.div>   

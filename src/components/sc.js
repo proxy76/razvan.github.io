@@ -88,7 +88,7 @@ export default function SirCaract(){
                 viewport={{once: true,}}
                 >
                     <p><img src='./question-mark.png' /><span>Ce sunt șirurile de caractere?</span></p>
-                    <p><img src='./hashtag.png' /><span>Șirurile de caractere sunt reprezentați de o serie de variabile de tip char, a cărui punct de referință caracteristic este dat de adresa de memorie la care începe șirul.</span></p>
+                    <p><img src='./hashtag.png' /><span>Șirurile de caractere sunt reprezentați de o serie de variabile de tip char, a cărui punct de referință caracteristic este dat de adresa de memorie la care începe șirul. <b>'\0'</b> se numște terminator și marchează finalul unui șir.</span></p>
                     <p><img src='terminal.png' /><span>Exemplu</span></p>
                     <section className="sc--code-sample">
                         <div className="sc--code-text">
@@ -109,13 +109,13 @@ export default function SirCaract(){
                     </section> 
                     <p className="met"><img src='./hashtag.png' /><span>Pentru a economisi timp, se folosesc metode ce facilitează anumite operații pe șirurile de caractere. Pentru a le accesa, avem nevoie să declarăm librăria <b>cstring</b>.</span></p>
                     <ul>
-                        <li>strlen(char*) - return: int, lungimea șirului</li>
-                        <li>strrev(char*) - return: *char, inversează șirul</li>
-                        <li>strupr(char*) - return: *char, transformă literele mici în litere mari</li>
-                        <li>strlwr(char*) - return: *char, transformă literele mari în litere mici</li>
-                        <li>strchr(char*, char) - return: *char, caută într-un șir, un caracter</li>
-                        <li>strstr(char*, char*) - return: *char, caută într-un șir, alt șir</li>
-                        <li>strspn(char*, char*) - return: int, caută într-un șir, alt șir și afișează pe câte poziții se întinde</li>
+                        <li>strlen(char*) - <u>return</u>: int, lungimea șirului</li>
+                        <li>strrev(char*) - <u>return</u>: *char (adresa la care începe șirul), inversează șirul</li>
+                        <li>strupr(char*) - <u>return</u>: *char, transformă literele mici în litere mari</li>
+                        <li>strlwr(char*) - <u>return</u>: *char, transformă literele mari în litere mici</li>
+                        <li>strchr(char*, char) - <u>return</u>: *char, caută într-un șir, un caracter</li>
+                        <li>strstr(char*, char*) - <u>return</u>: *char, caută într-un șir, alt șir</li>
+                        <li>strspn(char*, char*) - <u>return</u>: int, caută într-un șir, alt șir și afișează pe câte poziții se întinde</li>
                         <li><b>strtok(char*, const char*) / strtok(NULL, const char*)</b> - este folosit pentru împărțirea unui string mai mare în string-uri mai mici</li>
                     </ul>
                     <p><img src='terminal.png' /><span>Exemplu</span></p>
