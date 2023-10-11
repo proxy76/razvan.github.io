@@ -116,6 +116,7 @@ export default function SirCaract(){
                         <li>strchr(char*, char) - return: *char, caută într-un șir, un caracter</li>
                         <li>strstr(char*, char*) - return: *char, caută într-un șir, alt șir</li>
                         <li>strspn(char*, char*) - return: int, caută într-un șir, alt șir și afișează pe câte poziții se întinde</li>
+                        <li><b>strtok(char*, const char*) / strtok(NULL, const char*)</b> - este folosit pentru împărțirea unui string mai mare, în string-uri mai mici</li>
                     </ul>
                     <p><img src='terminal.png' /><span>Exemplu</span></p>
                     <section className="sc--code-sample2">
@@ -127,11 +128,29 @@ export default function SirCaract(){
                             <p></p>
                             <p></p>
                             <p><span style={{color: "blue"}}>int</span> main()｛</p>
-                            <p style={{marginLeft: 30}}><span style={{color: "blue"}}>char</span> s[];</p>
+                            <p style={{marginLeft: 30}}><span style={{color: "blue"}}>char</span> s[101];</p>
                             <p style={{marginLeft: 30}}>cin&gt;&gt;s;</p>
                             <p style={{marginLeft: 30}}>cout&lt;&lt;strlen(s); <span style={{fontStyle: 'italic', color: 'gray'}}> // afișează lungimea șirului</span></p>
                             <p>｝</p>
-                            <p><span style={{fontStyle: 'italic', color: 'gray'}}> // algoritm echivalent celui din primul Exemplu</span></p>
+                            <p><span style={{fontStyle: 'italic', color: 'gray'}}> // algoritm echivalent celui din primul exemplu</span></p>
+                        </div>
+                    </section> 
+                    <p><img src='terminal.png' /><span>Exemplu <i>strtok</i></span></p>
+                    <section className="sc--code-sample2">
+                        <div className="sc--code-text">
+                            <p>#include &lt;iostream&gt;</p>
+                            <p>#include &lt;cstring&gt;</p>
+                            <p></p>
+                            <p>using namespace std;</p>
+                            <p></p>
+                            <p></p>
+                            <p><span style={{color: "blue"}}>int</span> main()｛</p>
+                            <p style={{marginLeft: 30}}><span style={{color: "blue"}}>char</span> s[101];</p>
+                            <p style={{marginLeft: 30}}>cin.getline(s, 101);</p>
+                            <p style={{marginLeft: 30}}>char *p = strtok(s, " ");</p>
+                            <p style={{marginLeft: 30}}>for(; p; p=strtok(NULL, " ")) cout&lt;&lt;strrev(p);<span style={{fontStyle: 'italic', color: 'gray'}}> // afișează șirul fără spații și fiecare cuvânt inversat</span></p>
+                            <p>｝</p>
+                            <p></p>
                         </div>
                     </section> 
                     <p className="pop-quiz1"><img src="./lightning.png" /><span>Amintește-ți!</span></p>
