@@ -86,7 +86,7 @@ export default function Subprograme(){
                 </motion.p>
 
                 <section className="sp-title param-title">
-                    <span>void Parametrii</span>(char <span style={{fontWeight: 300}}>act</span>, float <span style={{fontWeight: 300}}>&ref</span>)
+                    <span>void Parametrii</span>(char <span style={{fontWeight: 300}}>const</span>, float <span style={{fontWeight: 300}}>&ref</span>)
                 </section>
                 <motion.p className="subtitle2">
                     <p><img src='./question-mark.png' /><span>Care era diferența între parametru actual și cu referință? </span></p>
