@@ -64,7 +64,7 @@ function App() {
       setColor8(false)
       setColor9(false)
       setColor10(false)
-    } else if (window.scrollY >= 5200 && window.scrollY < 7500) {
+    } else if (window.scrollY >= 5200 && window.scrollY < 7850) {
       setColor1(false)
       setColor2(false)
       setColor3(false)
@@ -75,7 +75,7 @@ function App() {
       setColor8(false)
       setColor9(false)
       setColor10(false)
-    } else if (window.scrollY >= 7500 && window.scrollY < 8800) {
+    } else if (window.scrollY >= 7850 && window.scrollY < 8800) {
       setColor1(false)
       setColor2(false)
       setColor3(false)
